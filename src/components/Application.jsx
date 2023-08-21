@@ -18,7 +18,7 @@ function Application() {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <img src="assets/in-app.png" alt="in-app" />
+            <img src="assets/react.svg" alt="in-app" />
             <div className="flex flex-col gap-2">
               <h3 className="text-xl font-bold">In-app Card Controls</h3>
               <p className="text-gray-500">
