@@ -7,6 +7,6 @@ export default function Loader() {
       const preloader = document.querySelector(".preloader");
       preloader.remove();
     };
-  });
+  }, []);
   return <PreLoader />;
 }
