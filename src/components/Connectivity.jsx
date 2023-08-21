@@ -1,5 +1,7 @@
 import React from "react";
-// import "../css/Connectivity.css";
+import updates from "../assets/updates.png";
+import exchange from "../assets/exchange.png";
+import moneyMan from "../assets/man-money.png";
 
 function Connectivity() {
   return (
@@ -11,7 +13,7 @@ function Connectivity() {
 
         <ul className="flex flex-col items-center gap-8 w-[80%] mx-auto md:w-full  text-center md:text-left">
           <li className="flex gap-4 flex-col items-center text-center mx-auto w-[80%] md:w-full md:text-left md:flex-row md:flex-start">
-            <img src="assets/updates.png" alt="shopping box" />
+            <img src={updates} alt="shopping box" />
             <div className="flex flex-col gap-4">
               <h3 className="text-2xl font-medium">Shop Globally</h3>
               <p className="text-gray-500">
@@ -21,7 +23,7 @@ function Connectivity() {
             </div>
           </li>
           <li className="flex gap-4 flex-col items-center text-center mx-auto w-[80%] md:w-full md:text-left md:flex-row md:flex-start">
-            <img src="assets/updates.png" alt="shopping box" />
+            <img src={updates} alt="shopping box" />
             <div className="flex flex-col gap-4">
               <h3 className="text-2xl font-medium">Real-time Updates</h3>
               <p className="text-gray-500">
@@ -31,7 +33,7 @@ function Connectivity() {
             </div>
           </li>
           <li className="flex gap-4 flex-col items-center text-center mx-auto w-[80%] md:w-full md:text-left md:flex-row md:flex-start">
-            <img src="assets/exchange.png" alt="shopping box" />
+            <img src={exchange} alt="shopping box" />
             <div className="flex flex-col gap-4">
               <h3 className="text-2xl font-medium">
                 Lowest Foreign Exchange Rate
@@ -48,7 +50,7 @@ function Connectivity() {
       <img
         data-aos="fade-right"
         data-aos-delay="300"
-        src="assets/man-money.png"
+        src={moneyMan}
         alt="man money"
         className="w-[60%] md:w-1/2 m-auto"
       />

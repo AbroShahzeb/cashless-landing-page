@@ -1,4 +1,5 @@
 import Typewriter from "typewriter-effect";
+import hero from "../assets/hero.png";
 
 function Header() {
   return (
@@ -33,7 +34,7 @@ function Header() {
         </button>
       </div>
       <img
-        src="assets/hero.png"
+        src={hero}
         alt="Hero Image"
         className="w-[60%] self-center md:w-1/2"
       />

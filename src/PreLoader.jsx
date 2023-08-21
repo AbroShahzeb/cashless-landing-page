@@ -1,4 +1,5 @@
 import React from "react";
+import beatingHearts from "./assets/beating-hearts.gif";
 
 const styles = {
   display: "flex",
@@ -11,7 +12,7 @@ const styles = {
 function PreLoader() {
   return (
     <div style={styles} className="preloader">
-      <img src="assets/beating-hearts.gif" alt="beating hearts" />
+      <img src={beatingHearts} alt="beating hearts" />
     </div>
   );
 }

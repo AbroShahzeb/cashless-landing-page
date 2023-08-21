@@ -1,5 +1,5 @@
 import React from "react";
-// import "../css/International.css";
+import platforms from "../assets/platforms.png";
 
 function Platforms() {
   return (
@@ -13,7 +13,7 @@ function Platforms() {
       </p>
       <img
         data-aos="fade-right"
-        src="assets/platforms.png"
+        src={platforms}
         alt="platforms"
         className="w-[80%] mx-auto"
       />

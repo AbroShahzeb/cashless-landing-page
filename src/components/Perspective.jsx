@@ -1,11 +1,13 @@
 import React from "react";
+import manCouch from "../assets/man-couch.png";
+import tick from "../assets/tick.png";
 
 function Perspective() {
   return (
     <section className="flex flex-col gap container m-8 mx-auto gap-4 items-center md:flex-row max-w-6xl">
       <img
         data-aos="fade-right"
-        src="assets/man-couch.png"
+        src={manCouch}
         alt="Man relaxing"
         className="w-[80%] md:w-1/2"
       />
@@ -20,18 +22,18 @@ function Perspective() {
         </p>
         <ul className="flex flex-col gap-4">
           <li className="flex items-center gap-4">
-            <img className="tick" src="assets/tick.png" />
+            <img className="tick" src={tick} />
             <p className="text-gray-500">No annual fees or minimum deposit</p>
           </li>
           <li className="flex items-center gap-4">
-            <img className="tick" src="assets/tick.png" />
+            <img className="tick" src={tick} />
             <p className="text-gray-500">
               {" "}
               Free, instant transfers to any bank or wallet in Pakistan
             </p>
           </li>
           <li className="flex items-center gap-4">
-            <img className="tick" src="assets/tick.png" />
+            <img className="tick" src={tick} />
             <p className="text-gray-500">
               Free cash withdrawals at any ATM in Pakistan (3x per month)
             </p>

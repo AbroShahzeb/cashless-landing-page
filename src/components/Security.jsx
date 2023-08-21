@@ -1,4 +1,7 @@
 import React from "react";
+import dollar from "../assets/dollar.png";
+import biometric from "../assets/biometric.png";
+import security from "../assets/security.png";
 
 function Security() {
   return (
@@ -16,7 +19,7 @@ function Security() {
         data-aos="fade-up"
       >
         <div className="p-8 rounded-xl w-[80%]  md:w-[33%] md:items-start md:text-start  m-auto flex flex-col gap-4 items-center text-center hover:shadow-lg hover:border-t-8 hover:border-t-[salmon] transition-all">
-          <img src="assets/dollar.png" alt="safe image" />
+          <img src={dollar} alt="safe image" />
           <h3 className="text-2xl font-bold">Serious Protection</h3>
           <p className="text-md text-gray-500">
             We protect your funds and sensitive personal data with encryption
@@ -24,7 +27,7 @@ function Security() {
           </p>
         </div>
         <div className="p-8 rounded-xl w-[80%]  md:w-[33%] md:items-start md:text-start  m-auto flex flex-col gap-4 items-center text-center hover:shadow-lg hover:border-t-8 hover:border-t-[salmon] transition-all">
-          <img src="assets/biometric.png" alt="safe image" />
+          <img src={biometric} alt="safe image" />
           <h3 className="text-2xl font-bold">Biometric Access</h3>
           <p className="text-md text-gray-500">
             Use fingerprint or Face ID for quick and easy access to your account
@@ -32,7 +35,7 @@ function Security() {
           </p>
         </div>
         <div className="p-8 rounded-xl w-[80%]  md:w-[30%] md:items-start md:text-start  m-auto flex flex-col gap-4 items-center text-center hover:shadow-lg hover:border-t-8 hover:border-t-[salmon] transition-all">
-          <img src="assets/security.png" alt="safe image" />
+          <img src={security} alt="safe image" />
           <h3 className="text-2xl font-bold">AI Fraud Detection</h3>
           <p className="text-md text-gray-500">
             We've implemented best-in-class fraud detection systems to keep your
