@@ -8,15 +8,15 @@ function Application() {
         src="assets/control.png"
         className="md:w-1/2"
         alt="Phone"
-        data-aos="fade-right"
+        // data-aos="fade-right"
       />
       <div className="flex flex-col gap-8">
         <h2 className="text-3xl font-bold">Complete control of your money</h2>
         <ul className="flex flex-col gap-4 items-start">
           <li
             className="flex flex-col gap-2 items-start"
-            data-aos="fade-up"
-            data-aos-delay="300"
+            // data-aos="fade-up"
+            // data-aos-delay="300"
           >
             <img src="assets/react.svg" alt="in-app" />
             <div className="flex flex-col gap-2">
@@ -29,8 +29,8 @@ function Application() {
           </li>
           <li
             className="flex flex-col gap-2 items-start"
-            data-aos="fade-up"
-            data-aos-delay="500"
+            // data-aos="fade-up"
+            // data-aos-delay="500"
           >
             <img src="assets/numberless.png" alt="in-app" />
             <div className="flex flex-col gap-2">
