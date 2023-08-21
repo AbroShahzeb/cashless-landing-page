@@ -4,7 +4,6 @@ import "aos/dist/aos.css";
 import "./App.css";
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
-import Loader from "./components/Loader";
 import Explanation from "./components/Explanation";
 import Perspective from "./components/Perspective";
 import Security from "./components/Security";
@@ -21,7 +20,6 @@ function App() {
 
   return (
     <>
-      <Loader />
       <Navigation />
       <Header />
       <Explanation />
